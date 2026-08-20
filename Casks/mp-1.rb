@@ -11,6 +11,16 @@ cask "mp-1" do
 
   app "MP-1.app"
 
+  # MP-1 is ad-hoc signed, not notarised. On Apple silicon that combination
+  # plus the quarantine flag makes Gatekeeper SIGKILL the app on launch, so a
+  # plain `brew install` would leave a binary that dies instantly. Clearing the
+  # flag here is the same thing the release notes ask users to do by hand.
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/MP-1.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/MP-1",
     "~/Library/Saved Application State/dev.mp1.MP1.savedState",
