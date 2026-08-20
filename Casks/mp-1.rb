@@ -7,7 +7,7 @@ cask "mp-1" do
   desc "Field-audio mini player with a real six-band parametric EQ"
   homepage "https://github.com/4nkitd/mp-1"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "MP-1.app"
 
