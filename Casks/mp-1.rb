@@ -1,6 +1,6 @@
 cask "mp-1" do
-  version "0.1.1"
-  sha256 "cd94c193c24ec528dbb931ebc202f1e92a78deb124171f75d684fe0e7572e90d"
+  version "0.1.2"
+  sha256 "b056d42e02f07b28eb0d03df4fe142ce7f552450c6a579f62fc06e2cffb2de84"
 
   url "https://github.com/4nkitd/mp-1/releases/download/v#{version}/MP-1-#{version}.dmg"
   name "MP-1"
