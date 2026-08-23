@@ -1,6 +1,6 @@
 cask "mordo" do
-  version "1.1.0"
-  sha256 "59e58f583c0bf41af6fc9684a7400a663e8e6aac24f0cf053e03753247fe1179"
+  version "1.2.0"
+  sha256 "a4cc550e7f348e07d72ac2e0fcc9837d9fd5c2ee0e5030867233dde921e8ca76"
 
   url "https://github.com/4nkitd/mordo/releases/download/v#{version}/Mordo-#{version}.dmg"
   name "Mordo"
