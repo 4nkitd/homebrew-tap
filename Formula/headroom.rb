@@ -3,7 +3,6 @@ class Headroom < Formula
   homepage "https://github.com/4nkitd/headroom"
   url "https://github.com/4nkitd/headroom/releases/download/v0.4.0/headroom-v0.4.0-macos-arm64.zip",
       headers: ["User-Agent: Mozilla/5.0"]
-  version "0.4.0"
   sha256 "0a008101b58118f41271da440e90ece4961fc697ad819d16407d83872211fd4c"
   depends_on :macos
 
