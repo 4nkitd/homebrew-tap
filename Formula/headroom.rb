@@ -7,7 +7,7 @@ class Headroom < Formula
   depends_on :macos
 
   def install
-    bin.install "Headroom.app/Contents/MacOS/headroom"
+    bin.install "Contents/MacOS/headroom"
   end
 
   test do
