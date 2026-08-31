@@ -1,7 +1,7 @@
 class Koko < Formula
-  desc "High-Performance Standalone Text-To-Speech CLI for macOS"
+  desc "High-Performance Standalone Text-To-Speech CLI & Server for macOS"
   homepage "https://github.com/4nkitd/koko"
-  url "https://github.com/4nkitd/koko/archive/refs/tags/v0.0.1.tar.gz"
+  url "https://github.com/4nkitd/koko/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
   license "MIT"
 
@@ -13,6 +13,6 @@ class Koko < Formula
   end
 
   test do
-    assert_match "koko version 0.0.1", shell_output("#{bin}/koko --version")
+    assert_match "koko version 0.1.0", shell_output("#{bin}/koko --version")
   end
 end
