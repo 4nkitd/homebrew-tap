@@ -12,9 +12,9 @@ cask "taptap" do
 
   app "TapTap.app"
 
-  postflight_steps do
+  postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "/Applications/TapTap.app"],
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/TapTap.app"],
                    sudo: false
   end
 
