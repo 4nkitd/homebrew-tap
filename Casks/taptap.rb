@@ -1,6 +1,6 @@
 cask "taptap" do
-  version "0.1.1"
-  sha256 "f6e407d8d57168cebbed2fec567d403b0e030672e4a35f4b7e25584f8f97fbbe"
+  version "0.1.2"
+  sha256 "73b29540e5b435dca3ad46f8696824c3518a1a3e385804064707c7f2c96faa6b"
 
   url "https://github.com/4nkitd/taptap/releases/download/v#{version}/TapTap-#{version}-macos-arm64.zip"
   name "TapTap"
