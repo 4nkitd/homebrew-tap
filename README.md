@@ -26,6 +26,7 @@ brew tap 4nkitd/tap
 
 | App | Installation | Description |
 | :--- | :--- | :--- |
+| **openbar** | `brew install --cask 4nkitd/tap/openbar` | Native AI coding quotas with multiple accounts; successor to Headroom |
 | **mordo** | `brew install --cask 4nkitd/tap/mordo` | Soundboard app for macOS (Rust + GPUI) |
 | **mp-1** | `brew install --cask 4nkitd/tap/mp-1` | Field-audio mini player for macOS |
 | **ocean** | `brew install --cask 4nkitd/tap/ocean` | Mobile-first web client for opencode |
