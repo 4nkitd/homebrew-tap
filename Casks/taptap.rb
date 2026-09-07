@@ -1,10 +1,10 @@
 cask "taptap" do
-  version "0.1.0"
-  sha256 "1792d2b934eb76dc06f92a7f564b0439f8c71f31b90d0833e64edc3d1c4f81a0"
+  version "0.1.1"
+  sha256 "f6e407d8d57168cebbed2fec567d403b0e030672e4a35f4b7e25584f8f97fbbe"
 
   url "https://github.com/4nkitd/taptap/releases/download/v#{version}/TapTap-#{version}-macos-arm64.zip"
   name "TapTap"
-  desc "Open-source MacBook tap gestures for macOS"
+  desc "Open-source MacBook tap gesture controls"
   homepage "https://github.com/4nkitd/taptap"
 
   depends_on arch: :arm64
