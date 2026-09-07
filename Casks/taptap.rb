@@ -14,7 +14,7 @@ cask "taptap" do
 
   postflight_steps do
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/TapTap.app"],
+                   args: ["-dr", "com.apple.quarantine", "/Applications/TapTap.app"],
                    sudo: false
   end
 
