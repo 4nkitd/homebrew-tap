@@ -1,6 +1,6 @@
 cask "openbar" do
-  version "0.1.8"
-  sha256 "e46c806fdf66cafdcb06f1119a5cda7a447da03b6c599d528f51f68063bf93aa"
+  version "0.1.10"
+  sha256 "b205043ae32626c6dec588c6a9d55d241cb733b5182ed6f286deb35d3e256620"
 
   url "https://github.com/4nkitd/openbar/releases/download/v#{version}/OpenBar-#{version}-macos-arm64.zip"
   name "OpenBar"
