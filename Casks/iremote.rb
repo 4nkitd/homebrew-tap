@@ -1,6 +1,6 @@
 cask "iremote" do
-  version "0.1.2"
-  sha256 "e3f0ddacce39899d17915efc81e1d5f6ac5dde8db9c2bb65b6021442ad98fe19"
+  version "0.2.0"
+  sha256 "12d1eeecf689ad128132863b07cc51b28982e331f90c0b3374be074f3698491c"
 
   url "https://github.com/4nkitd/iremote/releases/download/v#{version}/iRemote-#{version}-macos-arm64.zip"
   name "iRemote"
