@@ -31,6 +31,7 @@ brew tap 4nkitd/tap
 | **mp-1** | `brew install --cask 4nkitd/tap/mp-1` | Field-audio mini player for macOS |
 | **ocean** | `brew install --cask 4nkitd/tap/ocean` | Mobile-first web client for opencode |
 | **openzed** | `brew install --cask 4nkitd/tap/openzed` | OpenCode-first editor built on Zed; Apple Silicon alpha |
+| **try-googlebook-os** | `brew install --cask 4nkitd/tap/try-googlebook-os` | Experimental Googlebook OS setup launcher; downloads and builds the VM locally |
 
 ---
 
