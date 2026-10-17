@@ -8,8 +8,8 @@ cask "try-googlebook-os" do
   homepage "https://github.com/4nkitd/try-googlebook-os"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
   depends_on formula: "uv"
+  depends_on macos: :tahoe
 
   app "Try Googlebook OS.app"
 
