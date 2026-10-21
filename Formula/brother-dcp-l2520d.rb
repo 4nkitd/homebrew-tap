@@ -50,6 +50,6 @@ class BrotherDcpL2520d < Formula
   test do
     assert_predicate libexec/"rastertobrlaser", :executable?
     assert_equal "arm64", shell_output("lipo -archs #{libexec}/rastertobrlaser").strip
-    assert_predicate libexec/"brl2520d.ppd", :exist?
+    assert_path_exists libexec/"brl2520d.ppd"
   end
 end
