@@ -22,6 +22,14 @@ brew tap 4nkitd/tap
 | **headroom** | `brew install 4nkitd/tap/headroom` | macOS Menu Bar AI Subscription Usage Tracker |
 | **rustdesk-cli** | `brew install 4nkitd/tap/rustdesk-cli` | Headless RustDesk client CLI |
 
+### Drivers (`Formula`)
+
+| Driver | Installation | Description |
+| :--- | :--- | :--- |
+| **brother-dcp-l2520d** | `brew install 4nkitd/tap/brother-dcp-l2520d` | Native Apple silicon CUPS driver for the Brother DCP-L2520D printer (M1-M4, no Rosetta) |
+
+---
+
 ### macOS Apps (`Cask`)
 
 | App | Installation | Description |
