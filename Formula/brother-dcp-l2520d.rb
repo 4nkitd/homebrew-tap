@@ -2,7 +2,7 @@ class BrotherDcpL2520d < Formula
   desc "Native Apple silicon CUPS driver for the Brother DCP-L2520D"
   homepage "https://github.com/4nkitd/brother-dcp-l2520d-mac-driver"
   url "https://github.com/4nkitd/brother-dcp-l2520d-mac-driver/releases/download/v0.1.0/brother-dcp-l2520d-0.1.0.tar.gz"
-  sha256 "f7e75ed6603608d758cbc974ccae8cd1240c7c60c939e7007cc9adc162d774ed"
+  sha256 "3ac0eb867286289d207d5de5f1cbba38764050a417b9c913aa86470815087826"
   license "GPL-3.0-or-later"
   head "https://github.com/4nkitd/brother-dcp-l2520d-mac-driver.git", branch: "main"
 
